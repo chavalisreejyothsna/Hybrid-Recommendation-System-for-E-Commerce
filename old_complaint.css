@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Times-New-Roman:400,500,600,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: pink;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; /* Arrange elements horizontally */
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 4px;
+  background-color: rgb(190, 231, 251);
+}
+.close-btn {
+  margin-left: 1450px;
+  padding: 15px;
+  background-color: #4caf50;
+}
+.close-btn:hover {
+  background: red;
+}
+.orders,
+.contact-form {
+  flex: 1; /* Allocate equal space for both sections */
+  padding: 15px;
+}
+
+h2,
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+}
